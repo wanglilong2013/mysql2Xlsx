@@ -19,11 +19,11 @@ var db *sql.DB
 
 func main() {
 	mysqlHost = flag.String("h", "localhost", "mysql host")
-	mysqlPort = flag.String("P", "3306", "mysql port")
-	mysqlDb = flag.String("d", "", "mysql database name")
 	mysqlUser = flag.String("u", "", "mysql user name")
 	mysqlPassword = flag.String("p", "", "mysql password")
-	excelFilePath = flag.String("t", "", "export xlsx path")
+	mysqlDb = flag.String("d", "", "mysql database name")
+	mysqlPort = flag.String("P", "3306", "mysql port")
+	excelFilePath = flag.String("t", "/tmp/databse.xlsx", "export xlsx path and filename")
 
 	flag.Parse()
 
