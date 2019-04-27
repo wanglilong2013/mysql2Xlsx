@@ -18,5 +18,4 @@ go build
 ```
 ./mysql2Xlsx  -h localhost -P 3306  -d gogs -u root -t ./user2.xlsx
 
-接下来在终端输入数据库密码和sql语句回车即可
 ```
