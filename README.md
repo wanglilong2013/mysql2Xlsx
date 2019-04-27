@@ -4,8 +4,6 @@
 
 ## 安装
 ```
-cd $GOPATH
-
 go get -v github.com/wanglilong2013/mysql2Xlsx
 ```
 ## 编译
